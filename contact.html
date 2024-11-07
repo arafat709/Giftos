@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftos</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="structure5.css">
+    <link rel="icon" href="image5/favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .navbar {
+            padding: 15px 30px;
+            background-color: white;
+            box-shadow: 1px 1px 3px 3px whitesmoke;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            margin: 0px 50px 80px 50px;
+            border-radius: 10px 10px 10px 10px;
+
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+
+        .navbar ul li {
+
+            margin-right: 20px;
+            align-items: center;
+        }
+
+        .cu {
+            background-color: whitesmoke;
+            border-radius: 5px;
+        }
+
+        .navbar li a {
+            color: black;
+            padding: 5px 10px;
+        }
+
+        .navbar ul li a:active {
+            background-color: whitesmoke;
+            border-radius: 5px;
+            color: black;
+        }
+
+        /*  */
+        .contact h1 {
+            text-transform: uppercase;
+            font-size: 30px;
+            padding-left: 50px;
+            margin: 50px 0 0 0;
+        }
+
+        .cont img {
+            width: 700px;
+            height: 500px;
+            margin-right: 0px;
+        }
+
+        .cont {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 40px 20px 30px;
+            padding: 20px 45px 0 20px;
+            background-color: white;
+        }
+
+        .cont2 {
+            box-shadow: 1px 1px 3px 3px whitesmoke;
+            padding: 50px 50px 30px 0;
+        }
+
+        .cont-btn {
+            padding: 10px 40px;
+            /* text-align: center;
+            align-items: center; */
+            text-transform: uppercase;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(246, 68, 98);
+            border: 1px solid rgb(246, 68, 98);
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+
+        .cont-btn:hover {
+            color: rgb(246, 68, 98);
+            background-color: white;
+            transition: .5s;
+        }
+
+        .cont input[type="text"],
+        [type="email"],
+        [type="tel"] {
+            width: 400px;
+            height: 50px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        .cont textarea {
+            height: 100px;
+            width: 400px;
+            padding-left: 10px;
+        }
+
+        /*  */
+        .footer {
+            margin: 100px 50px 30px 50px;
+            padding: 50px 70px 30px 10px;
+            background-color: #2d2d2d;
+            color: white;
+        }
+
+        .footer p {
+            opacity: .8;
+        }
+
+        .bot1 {
+            width: 500px;
+            padding-right: 10px;
+        }
+
+        .bot2 {
+            padding-right: 10px;
+        }
+
+        .bot3 {
+            width: 400px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li a {
+            color: white;
+        }
+
+        ul li i {
+            padding-right: 10px;
+        }
+
+        .bot2 input[type="email"] {
+            width: 250px;
+            height: 40px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .bot2 button {
+            background-color: rgb(229, 130, 145);
+            font-size: 15px;
+            border: 1px solid rgb(229, 130, 145);
+            color: white;
+            padding: 15px 50px;
+            cursor: pointer;
+        }
+
+        .bottoms h2 {
+            text-transform: uppercase;
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+
+        .icons {
+            margin: 30px 0 50px 0;
+            text-align: center;
+        }
+
+        .icons i {
+            padding-right: 15px;
+            font-size: 25px;
+        }
+
+        .bottoms {
+            display: flex;
+            /* gap: 15px; */
+            justify-content: space-between;
+        }
+
+        .footer-lp {
+            text-align: center;
+            margin: 50px 0 5px 0;
+            position: relative;
+        }
+
+        .footer-lp::after {
+            content: "";
+            position: absolute;
+            bottom: 40px;
+            right: 150px;
+            background-color: white;
+            width: 800px;
+            height: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>giftos</h1>
+    </header>
+    <!--  -->
+    <section class="navbar">
+        <ul class="nv">
+            <li><a href="index.html">home</a></li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="why us.html">why us</a></li>
+            <li><a href="testimonial.html">testimonial</a></li>
+            <li><a class="cu" href="contact.html">contact us</a></li>
+            <li>
+                <i class="fa-solid fa-user-large"></i>
+                <a href="">Login</a>
+            </li>
+            <li><i class="fa-solid fa-bag-shopping"></i></li>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+        </ul>
+    </section>
+    <!--  -->
+    <section class="contact">
+        <h1>contact us</h1>
+        <div class="cont">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.5685791908695!2d90.38410807389286!3d23.7580648884848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x62c095b77d78bf9f%3A0xbecd94e03d560fea!2sWIT%20Institute!5e1!3m2!1sen!2sbd!4v1728993327670!5m2!1sen!2sbd"
+                width="650" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="cont2">
+                <form action="">
+                    <input type="text" placeholder="Name"><br>
+                    <input type="email" placeholder="Email"><br>
+                    <input type="tel" placeholder="Phone"><br>
+                    <textarea name="Message" id="" placeholder="Message"></textarea>
+                </form>
+                <button class="cont-btn">send</button>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+    <section class="footer">
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="bottoms">
+            <div class="bot1">
+                <h2>about us</h2>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed <br> doLorem ipsum dolor sit amet,
+                    <br>consectetur adipiscing elit, sed <br>doLorem ipsum dolor sit amet,
+                </p>
+            </div>
+            <div class="bot2">
+                <h2>newsletter</h2>
+                <input type="email" placeholder="Enter Your Email">
+                <button class="bot2-btn">subscribe</button>
+            </div>
+            <div class="bot3">
+                <h2>need help</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,</p>
+            </div>
+            <div class="bot4">
+                <h2>contact us</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a href="">Gb Road 12 London UK</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="">+8823849843895</a>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="">mail@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-lp">© 2024 All Rights Reserved By Free Html Templates</p>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 3px whitesmoke;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    margin: 0px 50px 80px 50px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+
+    margin-right: 20px;
+    align-items: center;
+}
+
+.navbar li a {
+    color: black;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:active {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: black;
+}
+
+.products h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0 40px 0;
+}
+
+.btn {
+    text-align: center;
+}
+
+.products button {
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+    /* align-items: center; */
+    background-color: #f54141;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 25px 0 10px 0;
+}
+
+.products button:hover {
+    background-color: white;
+    color: #f54141;
+    transition: .5s;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.pic img {
+    padding-top: 10px;
+    width: 130px;
+    height: 170px;
+}
+
+.pr1 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr1 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+.bt {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 30px 10px 10px 10px;
+}
+
+
+.pr2 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr2 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+
+.pr3 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.pr3 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+
+.pr4 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.pr4 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+.pr5 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr5 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+.pr6 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr6 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+.pr7 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr7 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+.pr8 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr8 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+span {
+    color: red;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+.footer {
+    margin: 100px 50px 30px 50px;
+    padding: 50px 70px 30px 10px;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.footer p {
+    opacity: .8;
+}
+
+.bot1 {
+    width: 500px;
+    padding-right: 10px;
+}
+
+.bot2 {
+    padding-right: 10px;
+}
+
+.bot3 {
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+}
+
+ul li i {
+    padding-right: 10px;
+}
+
+.bot2 input[type="email"] {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.abc {
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.bot2 button {
+    background-color: rgb(229, 130, 145);
+    font-size: 15px;
+    border: 1px solid rgb(229, 130, 145);
+    color: white;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.bottoms h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    margin: 30px 0 50px 0;
+    text-align: center;
+}
+
+.icons i {
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.bottoms {
+    display: flex;
+    /* gap: 15px; */
+    justify-content: space-between;
+}
+
+.footer-lp {
+    text-align: center;
+    margin: 50px 0 5px 0;
+    position: relative;
+}
+
+.footer-lp::after {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    right: 150px;
+    background-color: white;
+    width: 800px;
+    height: 2px;
+}

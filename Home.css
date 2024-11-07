@@ -1,0 +1,749 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    padding: 15px 30px;
+    background-color: #f8e9e5;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.nv {
+    text-align: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+
+    margin-right: 20px;
+    align-items: center;
+}
+
+.navbar li a {
+    color: black;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:active {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.hm {
+    background-color: white;
+    border-radius: 5px;
+}
+
+/*  */
+/*  */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdb8b8;
+    padding: 60px 30px;
+    margin: 0 50px 50px 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.hero h1 {
+    padding: 100px 0 0 50px;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 20px 0 0 50px;
+}
+
+.hero button {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(246, 68, 98);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #dc3545;
+    ;
+    border-radius: 5px;
+    margin: 50px 0 50px 50px;
+}
+
+.hero button:hover {
+    background-color: #fdb8b8;
+    color: red;
+    transition: .5s;
+}
+
+.hero img {
+    padding-right: 70px;
+}
+
+/*  */
+/*  */
+.products h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0 40px 0;
+}
+
+.btn {
+    text-align: center;
+}
+
+.products button {
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+    /* align-items: center; */
+    background-color: #f54141;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 25px 0 10px 0;
+}
+
+.products button:hover {
+    background-color: white;
+    color: #f54141;
+    transition: .5s;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.pic img {
+    padding-top: 10px;
+    width: 130px;
+    height: 170px;
+}
+
+.pr1 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr1 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+.bt {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 30px 10px 10px 10px;
+}
+
+
+.pr2 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr2 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+
+.pr3 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.pr3 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+
+.pr4 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+}
+
+.pr4 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+.pr5 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr5 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+.pr6 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr6 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+.pr7 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr7 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+.pr8 p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    justify-content: center;
+    line-height: 40px;
+
+}
+
+.pr8 {
+    background-color: whitesmoke;
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+
+span {
+    color: red;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/*  */
+/*  */
+.savings {
+    width: 1170px;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fd7eb;
+    border-radius: 15px;
+    color: white;
+    margin: 50px 50px 50px 50px;
+}
+
+.savings img {
+    padding: 100px 0 0 50px;
+    height: 330px;
+}
+
+.r8-item {
+    padding: 100px 50px 50px 20px;
+}
+
+.r8-item h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.button1 {
+    background-color: #09a9cd;
+    border: 1px solid #09a9cd;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    font-size: 15px;
+    margin: 30px 10px 0 0;
+}
+
+.button1:hover {
+    background-color: #7fd7eb;
+    color: #09a9cd;
+    transition: .5s;
+}
+
+.button2 {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    padding: 15px 50px 15px 50px;
+    font-size: 15px;
+}
+
+.button2:hover {
+    background-color: #7fd7eb;
+    color: white;
+    transition: .5s;
+}
+
+/*  */
+/* */
+.Quality h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.Quality i {
+    padding-top: 30px;
+    font-size: 50px;
+    color: navy;
+}
+
+.th-itm {
+    margin: 50px 70px 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 200px;
+}
+
+.th-itm h5 {
+    text-transform: capitalize;
+    padding: 20px 0 10px 0;
+    font-size: 20px;
+    opacity: .7;
+}
+
+.th-itm p {
+    padding: 0 0 20px 0;
+}
+
+.itm {
+    background-color: whitesmoke;
+    width: 350px;
+}
+
+/*  */
+/*  */
+.gift {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 20px 50px;
+    background-color: #6929a5;
+    color: white;
+    border-radius: 15px;
+    padding: 50px 20px 50px 50px;
+}
+
+.gift-r8 {
+    padding: 100px 20px 0 20px;
+}
+
+.gift-r8 h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.btn-1 {
+    margin-top: 50px;
+    padding: 15px 50px 15px 50px;
+    border: white solid 1px;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.btn-1:hover {
+    background-color: #6929a5;
+    color: white;
+    transition: .5s;
+}
+
+.btn-2 {
+    background-color: #942ef5;
+    color: white;
+    margin-top: 50px;
+    padding: 15px 50px 15px 50px;
+    border: #6929a5 solid 1px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.btn-2:hover {
+    border: #a75ced 1px solid;
+    background-color: #6929a5;
+    color: #942ef5;
+    transition: .5s;
+}
+
+.gift img {
+    width: 430px;
+    height: 495px;
+}
+
+/*  */
+/*  */
+.contact h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-left: 50px;
+    margin: 50px 0 0 0;
+}
+
+.cont img {
+    width: 700px;
+    height: 500px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 20px 30px;
+    padding: 20px 45px 0 20px;
+    background-color: white;
+}
+
+.cont2 {
+    box-shadow: 1px 1px 3px 3px whitesmoke;
+    padding: 50px 50px 30px 0;
+}
+
+.cont-btn {
+    padding: 10px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(246, 68, 98);
+    border: 1px solid rgb(246, 68, 98);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.cont-btn:hover {
+    color: rgb(246, 68, 98);
+    background-color: white;
+    transition: .5s;
+}
+
+.cont input[type="text"],
+[type="email"],
+[type="tel"] {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.cont textarea {
+    height: 100px;
+    width: 400px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+
+/*  */
+/*  */
+.testimonial h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 70px 0 30px 0;
+}
+
+.testi {
+    margin: 25px 100px 20px 100px;
+    box-shadow: 1px 1px 3px 3px rgb(240, 238, 238);
+    padding: 25px 20px 35px 20px;
+}
+
+.testi-t i {
+    font-size: 30px;
+}
+
+.testi-t h4 {
+    color: rgb(246, 68, 98);
+    font-size: 20px;
+}
+
+.para1 {
+    opacity: .4;
+}
+
+.testi-t {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.swiper-button-next {
+    right: 60px !important;
+    left: auto !important;
+    background-color: #fdb8b8;
+    color: white;
+    padding: 25px 6px 25px 6px;
+}
+
+.swiper-button-prev {
+    left: 60px !important;
+    right: auto !important;
+    background-color: #fdb8b8;
+    color: white;
+    padding: 25px 6px 25px 6px;
+}
+
+/*  */
+/*  */
+footer {
+    margin: 100px 50px 30px 50px;
+    padding: 50px 70px 30px 10px;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+footer p {
+    opacity: .8;
+}
+
+.bot1 {
+    width: 400px;
+    /* padding-right: 10px; */
+}
+
+.bot2 {
+    padding-right: 10px;
+}
+
+.bot3 {
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+}
+
+ul li i {
+    padding-right: 10px;
+}
+
+ul li i {
+    padding-right: 10px;
+}
+
+.bot2 input[type="email"] {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.bot2 button {
+    background-color: rgb(229, 130, 145);
+    font-size: 15px;
+    border: 1px solid rgb(229, 130, 145);
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.bottoms h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.bot2 button {
+    background-color: rgb(229, 130, 145);
+    font-size: 15px;
+    border: 1px solid rgb(229, 130, 145);
+    color: white;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.bottoms h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.icons {
+    margin: 30px 0 50px 0;
+    text-align: center;
+}
+
+.icons i {
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.bottoms {
+    display: flex;
+    /* gap: 15px; */
+    justify-content: space-between;
+}
+
+.footer-lp {
+    text-align: center;
+    margin: 50px 0 5px 0;
+    position: relative;
+}
+
+.footer-lp::after {
+    content: "";
+    position: absolute;
+    bottom: 40px;
+    right: 150px;
+    background-color: white;
+    width: 800px;
+    height: 2px;
+}
